@@ -9,6 +9,7 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import allBag from "../../Data/Allbag";
 import allBottle from "../../Data/Allbottle";
+import allHeadwear from "../../Data/Allheadwear";
 
 const ProductDetail = () => {
 	const { id } = useParams();
@@ -19,6 +20,7 @@ const ProductDetail = () => {
 		...allSocks,
 		...allBag,
 		...allBottle,
+		...allHeadwear,
 	];
 	const product = allProducts.find((p) => p.id === parseInt(id));
 	const navigate = useNavigate();

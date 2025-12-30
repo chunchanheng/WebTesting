@@ -19,8 +19,8 @@ const Product1 = () => {
 									</div>
 									<div>
 										<h1>{product.title}</h1>
-										<p>{product.description}</p>
-										<p>{product.price}</p>
+										<p className="text-sm text-[gray]">{product.description}</p>
+										<p className="text-red-500">$ {product.price}</p>
 									</div>
 								</div>
 							</Link>

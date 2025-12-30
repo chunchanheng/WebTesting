@@ -11,27 +11,27 @@ const Navbar = () => {
 					<div className="flex gap-5 uppercase font-bold text-sm">
 						<Link
 							to="/Allequiment"
-							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all">
+							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all ">
 							All equipment
 						</Link>
 						<Link
 							to="/Allsocks"
-							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all">
+							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all focus:bg-black focus:text-white">
 							All Socks
 						</Link>
 						<Link
 							to="/Allbag"
-							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all">
+							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all focus:bg-black focus:text-white">
 							all bags
 						</Link>
 						<Link
 							to="/Allbottles"
-							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all">
+							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all focus:bg-black focus:text-white">
 							all bottoles
 						</Link>
 						<Link
 							to="/Allheadwear"
-							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all">
+							className="bg-[rgb(217,217,217)] p-3 rounded-full hover:bg-black hover:text-white transition-all focus:bg-black focus:text-white">
 							all headwear
 						</Link>
 					</div>
